@@ -27,7 +27,7 @@ void draw()
   }
 }
 // drawWater() - 主要功能為畫水滴
-void drawWater()
+void drawWater() 
 {
    for (int i = 0; i < water_x.length; ++i) {
     image(water, water_x[i], i * 20);
